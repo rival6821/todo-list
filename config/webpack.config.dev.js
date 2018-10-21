@@ -300,6 +300,7 @@ module.exports = {
                 importLoaders: 2,
                 modules: true,
                 getLocalIdent: getCSSModuleLocalIdent,
+                includePaths:[paths.styles]
               },
               'sass-loader'
             ),
